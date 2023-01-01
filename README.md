@@ -35,3 +35,10 @@
     - [ActivityLifecycle](https://developer.android.com/guide/components/activities/activity-lifecycle)
     - [onSaveInstanceState](https://developer.android.com/guide/components/activities/activity-lifecycle?hl=ko#save-simple,-lightweight-ui-state-using-onsaveinstancestate)
    
+# Chapter 2. 한 걸음 더
+
+1. 소수점이 정확하지 않은 이유는 뭘까요?
+    - Java 에서는 실수를 표현할 때는 부동 소수점 방식을 사용 하는데 이 때, 오차가 생길 수 있다. 근사값을 이용하기 때문이다. 부정확성을 해결하기 위해, BigDecimal 이라는 자료형을 사용하면 된다.
+        - 상세한 이유는 이해하지 못하더라도, 소수점이 정확하지 않을 수 있다는 점을 인지하고, 정확한 계산을 필요로 할 때는 다른 자료형을 사용하면 됨
+        - https://ko.wikipedia.org/wiki/%EB%B6%80%EB%8F%99%EC%86%8C%EC%88%98%EC%A0%90
+2. Activity Lifecycle 을 충분히 이해해봅시다.
